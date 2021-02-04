@@ -7,7 +7,7 @@ const products = () => {
             <h1>products test</h1>
             <Link to="/">Home</Link>
         </div>
-        
+
     )
 }
 

@@ -1,13 +1,15 @@
 import React from 'react'
-import Gatsby, { Link } from "gatsby";
+import Layout from "../componnents/Layout"
 
 function index() {
   return (
     <div>
-      <h1>index page</h1>
-      <Link to="/blog/">Blog</Link>
-      <div><Link to="/products/">Products</Link></div>
-      
+
+      <Layout>
+        <h1>index page</h1>
+
+      </Layout>
+
 
     </div>
   )
