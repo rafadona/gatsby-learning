@@ -1,12 +1,18 @@
 import React from 'react'
 import Header from "../examples/Header"
+import Layout from "../componnents/Layout"
 
 const examples = () => {
     return (
-        <div>
-            <h1>alo from examples</h1>
-            <Header />
-        </div>
+        <Layout>
+
+            <div>
+                <h1>alo from examples</h1>
+                <Header />
+            </div>
+
+        </Layout>
+
     )
 }
 
