@@ -36,7 +36,7 @@ export const query = graphql`
         price
         title
         image {
-          fluid(maxWidth:5000) {
+          fluid{
             ...GatsbyContentfulFluid
           }
         }
