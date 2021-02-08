@@ -12,7 +12,7 @@ const getImages = graphql`
         }
       }
     }
-    file(relativePath: {eq: "image2.jpeg"}) {
+    fluid: file(relativePath: {eq: "image2.jpeg"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -37,7 +37,7 @@ const Images = () => {
       </article>
       <article className="single-image">
         <h3>Fluid image/svg</h3>
-        <Image fluid={data.file.childImageSharp.fluid} alt="" />
+        <Image fluid={data.fluid.childImageSharp.fluid} alt="" />
       </article>
 
     </section>
