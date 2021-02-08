@@ -16,7 +16,7 @@ const ComponentName = ({
     return (
         <Layout>
             <div style={{ textAlign: "center" }}>
-                <Link to="/products">back to products</Link>
+
                 <h1>single product : {title}</h1>
             </div>
             <section className="single-product">
@@ -28,7 +28,12 @@ const ComponentName = ({
                     <h3>${price}</h3>
                     <p>{info}</p>
                     <button>add to cart</button>
+                    <div style={{ textAlign: "center" }}>
+                        <Link to="/products">back to products</Link>
+                    </div>
+
                 </article>
+
             </section>
         </Layout>
     )
