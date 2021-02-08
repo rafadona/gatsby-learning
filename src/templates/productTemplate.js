@@ -45,7 +45,7 @@ export const query = graphql`
       title
       price
       image {
-        fixed(width: 300) {
+        fixed(width: 1000) {
           ...GatsbyContentfulFixed
         }
       }
