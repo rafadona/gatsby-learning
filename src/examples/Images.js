@@ -28,7 +28,7 @@ const Images = () => {
   return (
     <section className="images">
       <article className="single-image">
-        <h3>Basic image</h3>
+        <h3>Basic image react</h3>
         <img src={img} alt="a" />
       </article>
       <article className="single-image">
