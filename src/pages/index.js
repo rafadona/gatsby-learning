@@ -8,7 +8,7 @@ function index() {
 
       <Layout>
         <h1>index page</h1>
-        <ExampleButton>click me</ExampleButton>
+        <ExampleButton>click me xD</ExampleButton>
 
       </Layout>
     </div>
