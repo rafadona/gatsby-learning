@@ -31,9 +31,3 @@
     column-gap: 2rem;
   }
 }
-
-@media screen and (min-width: 992px) {
-  .page {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
