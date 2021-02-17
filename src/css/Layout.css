@@ -9,6 +9,10 @@ h1 {
   text-transform: capitalize;
 }
 
+.navbar {
+  display: grid;
+}
+
 .images {
   text-align: center;
   text-transform: capitalize;
