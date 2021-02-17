@@ -12,6 +12,10 @@ h1 {
 .navbar {
   border: 2px solid black;
 }
+.nav-menu {
+  display: inline;
+  text-align: center;
+}
 
 .images {
   text-align: center;
