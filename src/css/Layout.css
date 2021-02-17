@@ -13,8 +13,10 @@ h1 {
   border: 2px solid black;
 }
 .nav-menu {
-  display: inline;
+  display: block;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .images {
